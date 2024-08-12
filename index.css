@@ -199,7 +199,112 @@ main{
     background-color:rgba(34, 34, 34, 1);
     gap: 165px;
 }
+.section-4-div{
+    width: 500px;
+    height: 120px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+.section-4{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.cal-d{
+    font-size: 13px;
+    opacity: 0.7;
+}
+.calculator{
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 1;
+}
+.section-5{
+    height: 320px;
+    font-family: sans-serif;
+    color: white;
+    background-color:rgba(34, 34, 34, 1);
+    display: flex;
+    padding: 20px 70px 80px 70px;
+    gap: 100px;
+}
+table,th,td{
+    border: 1px solid hsl(0, 2%, 25%);
+    border-collapse: collapse;
+}
+table{
+    width: 300px;
+    height: 210px;
+    margin-top: 30px;
 
+}
+th{
+    font-size: 15px;
+    padding: 10px 0px 10px 0px; 
+    font-weight: 100;
+    opacity: 1;
+}
+td{
+    font-size: 10px;
+    padding: 10px 0px 10px 29px;
+    opacity: 0.7;
+}
+#bmi{
+    text-align: start;
+    padding: 10px 0px 10px 29px; 
+}
+.sec-5-div-2{
+    width: 620px;
+    height: 200px;
+}
+.ok{
+    width: 200px;
+    height: 35px;
+    margin: 10px 5px;
+    background-color: hsla(0, 2%, 9%, 0.858);
+    border: none;
+    border-radius: 7px;
+    padding-left: 20px;
+    opacity: 0.7;
+   
+}
+.okk{
+    width: 222px;
+    height: 37px;
+    margin: 10px 5px;
+    background-color: hsla(0, 2%, 9%, 0.858);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding-left: 20px;
+    opacity: 0.7;
+}
+.okkk{
+    width: 460px;
+    height: 37px;
+    margin: 10px 5px;
+    background-color: hsla(0, 2%, 9%, 0.858);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding-left: 20px;
+    opacity: 0.7;
+}
+::placeholder{
+    color: white;
+}
+.sec-5h{
+    opacity: 1;
+}
+.sec-5p{
+    opacity: 0.7;
+    width: 500px;
+}
+.input{
+    width: 600px;
+    height: 200px;
+}
 
 
 
@@ -284,6 +389,37 @@ main{
         .p-2{
             text-align: start;
         }
+        .section-4{
+            width: 350px;
+            height: 120px;
+        }
+        .cal-d{
+            font-size: 13px;
+            width: 400px;
+        }
+        .section-5{
+            height: 700px;
+            flex-direction: column;
+            gap: 40px;
+            padding: 0px;
+        }
+        .sec-5p{
+            width: 400px;
+        }
+        .input{
+            width: 400px;
+            height: 160px;
+        }
+        .ok{
+            width: 160px;
+        }
+        .okk{
+            width: 181px;
+        }
+        .okkk{
+            width: 376px;
+        }
+
     }
 
 
