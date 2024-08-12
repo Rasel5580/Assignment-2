@@ -16,6 +16,7 @@ header{
     gap: 2rem;
     justify-content: space-between;
     align-items: center;
+    padding: 0 30px 0 30px;
 }
 .ul-1{
     width: 420px;
@@ -64,6 +65,7 @@ ul li a:hover{
     justify-content: space-between;
     align-items: center;
     gap: 80px;
+    padding: 0 30px 0 30px;
 }
 .h1-1{
     font-size: 4rem;
@@ -116,6 +118,7 @@ main{
     margin-top: 100px;
     font-family: sans-serif;
     align-items: center;
+    padding: 0 30x 0 30px;
 }
 .div-1{
     height: 120px;
@@ -142,7 +145,7 @@ main{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    gap: 40px;
+    gap: 20px;
     padding: 0px;
     margin-bottom: 0px;
 }
@@ -180,7 +183,7 @@ main{
 }
 .run{
     width: 280px;
-    height: 300px;
+    height: 250px;
     border-radius: 15px;
 }
 .div-main{
@@ -189,15 +192,15 @@ main{
     
 }
 .section-3{
-    margin: 3.3rem 6.8rem 0 6.8rem;
+    margin: 3.3rem 11.8rem 0 11.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px ;
+    padding: 0 60px ;
     border: none;
     border-radius: 15px;
     background-color:rgba(34, 34, 34, 1);
-    gap: 165px;
+    gap: 40pxpx;
 }
 .section-4-div{
     width: 500px;
