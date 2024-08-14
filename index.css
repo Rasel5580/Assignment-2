@@ -4,7 +4,7 @@
 header{
     background-color: hsl(0, 3%, 13%);
     width: 100%;
-    height: 759px;
+    height: 707px;
 }
 .head-div{
     width: 650px;
@@ -66,6 +66,7 @@ ul li a:hover{
     align-items: center;
     gap: 80px;
     /* padding: 0 30px 0 30px; */
+    position: relative;
 }
 .h1-1{
     font-size: 4rem;
@@ -102,8 +103,41 @@ ul li a:hover{
     border-radius: 25px;
     color: white;
     background-color: hsl(0, 3%, 13%);
-    font-size: 18px;
-    
+    font-size: 18px; 
+}
+.head-pic-1{
+    width: 160px;
+    height: 90px;
+    color: white;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 36%, 0.267);
+    position: absolute;
+    top: 25%;
+    left: 185%;
+}
+.head-pic-2{
+    width: 160px;
+    height: 90px;
+    color: white;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 36%, 0.267);
+    position: absolute;
+    top: 75%;
+    left: 115%;
+}
+.head-h4{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bolder;
+    position: absolute;
+    to
+
+}
+.head-p{
+font-size: 13px;
+text-align: center;
+margin-top: 2px;
+po
 }
 .head-div-2{
     width: 350px;
@@ -183,7 +217,7 @@ main{
 }
 .run{
     width: 280px;
-    height: 250px;
+    height: 240px;
     border-radius: 15px;
 }
 .div-main{
@@ -230,7 +264,7 @@ main{
     justify-content: space-between;
     background-color:rgba(34, 34, 34, 1);
     display: flex;
-    padding: 20px 140px 60px 140px;
+    padding: 20px 110px 60px 110px;
     gap: 0px; 
 }
 table,th,td{
@@ -271,6 +305,7 @@ td{
     border-radius: 7px;
     padding-left: 20px;
     opacity: 0.7;
+    color: white;
    
 }
 .okk{
@@ -309,7 +344,140 @@ td{
     width: 600px;
     height: 200px;
 }
-
+.section-6{
+    height: 780px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding: 0px 110px 0px 110px;
+}
+.sec-6-div-1{
+    text-align: center;
+}
+.sec-6-h3{
+    font-size: 40px;
+    opacity: 1;
+}
+.sec-6-p{
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+.sec-6-pic img{
+    width: 100%;
+    display: block;
+}
+.sec-6-pic{
+    height: 495px;
+    text-align: center;
+    background-color: hsl(0, 3%, 13%);
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    position: relative;
+}
+.trainer{
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.taitel-1{
+    position: absolute;
+    top: 38%;
+    left: 4%;
+}
+.taitel-2{
+    position: absolute;
+    top: 38%;
+    left: 37%;
+}
+.taitel-3{
+    position: absolute;
+    top: 38%;
+    left: 70%;
+}
+.taitel-4{
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+}
+.taitel-5{
+    position: absolute;
+    bottom: 2%;
+    left: 37%;
+}
+.taitel-6{
+    position: absolute;
+    bottom: 2%;
+    left: 70%;
+}
+.taitel-h4{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.taitel-p{
+    font-size: 13px;
+    opacity: 0.7;
+    text-align: start;
+    margin-top: 5px;
+}
+footer{
+    font-family: sans-serif;
+    color: white;
+    height: 370px;
+    background-color: hsl(0, 3%, 13%);
+    padding: 10px 110px 10px 110px;
+    margin-bottom: 50px;
+}
+.footer{
+    font-family: sans-serif; 
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(0, 1%, 45%);
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    
+}
+.foot-h2{
+    font-size: 60px;
+    font-weight: bolder;
+    color: coral;
+    font-style: italic;
+}
+.foot-p{
+    font-size: 15px;
+    opacity: 0.7;
+}
+.foot-div-1{
+    width: 380px;
+}
+.foot-div-2{
+    width: 170px;
+    height: 250px;
+}
+.foot-div-3{
+    width: 160px;
+    height: 250px;
+}
+.foot-h3{
+    font-size: 25px;
+    opacity: 1;
+}
+.foot-ul{
+    list-style: none;
+    opacity: 0.6;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.foot-pp{
+    opacity: 0.7;
+    text-align: center;
+}
 
 
 
@@ -425,6 +593,15 @@ td{
         }
         .okkk{
             width: 376px;
+        }
+        .section-6{
+            flex-direction: column;
+        }
+        .sec-6-pic{
+            grid-template-columns: repeat(1.1fr);
+        }
+        .footer{
+            flex-direction: column;
         }
 
     }
